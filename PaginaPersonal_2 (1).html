@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mi primera página personal</title>
+
+</head>
+<body>
+
+<style type="text/css">
+	
+h1,h2{
+	color:purple;
+	text-align:center;
+	font-size: 35px;
+}
+
+body{
+	background-image:url(https://s-media-cache-ak0.pinimg.com/564x/0e/57/41/0e574116a2034b9f91d8fedfe81f0a4d.jpg);
+}
+
+.contenido{
+	margin-left: 300px;
+	width: 700px;
+	height: 550px;
+	border:2px solid purple;
+	background-image:url(https://albumfotos.es/galeria-imagenes/uploads/fotos/thumbs/fondo-comunion-para-album-classic-corazones_comuniones-13-classic_1200px.jpg); 
+
+}
+
+.contenido  p {
+	text-align: center;
+	font-size: 20px;
+	font-family: Comic;
+}
+
+#contacto{
+	position: relative;
+	margin-left: 300px;
+	margin-top: 100px;
+
+}
+
+.volver{
+	position:fixed;
+	left: 0px;
+	bottom: 0px;
+}
+.iconos{
+	margin-left: 270px;
+}
+#inicio{
+	margin-top: 40px;
+}
+#sobre{
+	margin-top: 80px;
+	height: 650px;
+}
+#contacto{
+	margin-top: 80px;
+	padding-top: 20px;
+}
+
+.menudesv {
+   	position: absolute;
+   	position:fixed;
+   	left:20px;
+	width: 100px;
+	max-width: 50px;
+	min-width: 100px;
+	overflow: hidden;
+	margin: 10px auto;
+	background: #7FFFD4;
+}
+
+.menudesv a {
+	display: block;
+	padding: 8px;
+	border: 1px solid purple;
+	color: purple;
+	font-family: arial;
+	font-size: 15px;
+	text-align:center;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+a {
+display: inline-block;
+position: relative;
+color: #333;
+text-decoration: none;
+padding: 0 4px;
+}
+a:before,
+a:after {
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+transform: scale(0);
+transition: 0.5s;
+}
+a:before {
+border-bottom: 2px solid #333;
+border-left: 2px solid #333;
+transform-origin: 0 100%;
+}
+a:after {
+border-top: 2px solid #333;
+border-right: 2px solid #333;
+transform-origin: 100% 0%;
+}
+a:hover:after,
+a:hover:before {
+transform: scale(1);
+}
+
+
+.menudesv a:hover {
+color: #000;
+}
+.menudesv a:nth-child(1):hover ~ .marcav {
+top: 0%; 
+}
+.menudesv a:nth-child(2):hover ~ .marcav {
+top: 12.5%;
+}
+.menudesv a:nth-child(3):hover ~ .marcav {
+top: 25%; 
+}
+.menudesv a:nth-child(4):hover ~ .marcav {
+top: 37.5%; 
+}
+
+
+</style>
+
+
+<div class="menudesv">
+	<a href="#inicio">Inicio</a>
+	<a href="#contacto">Contacto</a>
+	<a href="http://elpais.com/tag/paginas_web/a" target="_blank">Noticias</a>
+	<a href="#sobre">Sobre mi</a>
+	<div class="marcav"></div>
+
+</div>
+
+<div id="inicio" style="height: auto;" class="contenido" >
+	
+	<img src="http://images.hellogiggles.com/uploads/2017/01/26062947/sailor-moon-fan-club.jpg" height="430px;">
+	<h1>Bienvenidos a mi página personal</h1>
+
+</div>
+<br>
+<div id="contacto" style="height: 180px;" class="contenido">
+	<h2>Contacto</h2>
+<div class="iconos">
+	<a href="http://www.facebook.com/" target="_blank">
+	<img alt="Siguenos en Facebook" src="./PaginaPersonal_files/facebook48.png" width="48" height="48"></a>
+
+	<a ref="author" href="https://plus.google.com/" target="_blank">
+	<img alt="Siguenos en Google+" src="./PaginaPersonal_files/google48.png" width="48" height="48"></a>
+
+	<a href="http://www.linkedin.com/" target="_blank">
+	<img alt="Siguenos en Linkedin" src="./PaginaPersonal_files/linkedin48.png" width="48" height="48"></a>
+</div>	
+</div>
+<br>
+
+<div id="sobre" class="contenido">
+	<h2>Sobre mi</h2>
+	<p> Mi nombre es Jennifer Caraballo Cruz. Soy una sevillana viviendo en Málaga.
+	Mis comienzos en Málaga fueron como cocinera, que fue en lo que me certifiqué en Sevilla.
+	Sí, soy cocinera, aunque ahora estudio Desarrollo de aplicaciones Multiplataforma.
+	¿Porque he cambiado de gremio?
+	Pues por dos cosas claras.</p>
+	<br>
+	<p>La primera... los trabajos que he tenido como cocinera han hecho que cambie mi forma de verla rotundamente
+	mi primer trabajo aqui era de jefa de cocina en un bar, y si es raro empezar como jefa de cocina pero asi 
+	salió y ahí comencé, la verdad fue el primero pero no el peor... Lo peor fue en un restaurante en el cual tenia un jefe tirano y fue definitivamente el que hizo que odiara mi trabajo.</p>
+	<br>
+	<p>
+	La segunda y no mas importante fue que con mi edad no quería cerrarme a un gremio en el que no me sentía realizada y por eso me decidí por la informática,que me llamaba la curiosidad,
+	y en el cual podía superarme dia a dia, sin tener que lidiar con contratos basura y sueldos aun peores despues de 12 o 14 horas de trabajo.</p>
+	<br>
+	<p>
+	<p>Y aquí estoy con sus más y sus menos pero mejorando día a día.
+	Gracias a todos por su atención.</p>
+
+</div>
+<br>
+
+
+<div class="volver">
+
+    <a href="#" title="Ir arriba">
+    	<img alt="Ir arriba" border="2px solid purple" src="http://static.milano-italia.it/imgman/arrowrotate?a=0" >
+    </a> 
+
+</div>	
+
+</body>
+</html>
